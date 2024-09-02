@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+                    /* 
+                    Medias Absolutas
+                    cm(centímetro), mm(milímetro), in(polegada), px(pixel), pt(ponto), pc(paica)
+
+                    Medidas Relativas
+                    em(altura do M maiúsculo), ex(altura do x), rem, vw, vh, %
+                    16px geralmente = 1em
+
+                    obs: o recomendável em CSS para telas é usar o px e o em.
+                    */
+            font-size: 1em;
+        }
+
+        h1 {
+            /* font-family: 'Courier New', Courier, monospace;
+            font-weight: lighter;
+            font-size: 3em;
+            font-style: italic;
+
+            shorthand font (simplificar as características da fonte)
+            ordem de simplificação: 
+            - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic lighter 3em 'Courier New', Courier, monospace;
+        }
+
+        h2 {
+            font: bold 2em 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut incidunt nulla sit esse vero laudantium repellat recusandae optio odio veniam suscipit ea fugit libero praesentium dolorem dolores iusto, laborum quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat alias, laborum distinctio eum veniam illum quam ipsa. Perferendis laudantium blanditiis consequatur sit rerum dolores quasi laborum illum dolorum adipisci. Unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aspernatur temporibus consectetur fugit molestias dolore aliquid mollitia dolores similique velit, ex accusamus voluptas reprehenderit nobis aperiam eveniet ipsam quo nemo?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos animi ipsa, distinctio voluptatem voluptas ipsam, et sit dolor dolorum quaerat iure? Magni, optio dolorum. Qui officia facilis modi cum.</p>
+    <h2>Subtítulo do exercício </h2> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eum quam deserunt aliquid, error et qui aut magni consequuntur exercitationem id ipsam, dolor non autem voluptatum architecto tenetur quas repellendus.</p>
+</body>
+</html>
